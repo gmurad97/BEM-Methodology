@@ -1,0 +1,13 @@
+@mixin resetStyle($isBSBB) {
+    @if $isBSBB == true {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    @else {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: content-box;
+    }
+}

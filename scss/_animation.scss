@@ -1,0 +1,8 @@
+@keyframes pulse {
+    from{
+        filter:drop-shadow(0px 0px 2px #9A3BB1) invert(0%);
+    }
+    to{
+        filter:drop-shadow(0px 0px 16px #9A3BB1) invert(100%);
+    }
+}
